@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak | SD Negeri 3 Kesiman</title>
+<meta name="description" content="Hubungi SD Negeri 3 Kesiman: alamat, email, telepon, dan lokasi peta.">
+<link rel="icon" href="assets/img/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.jpeg" alt="Lambang SD Negeri 3 Kesiman">
+      <span class="brand-text"><strong>SDN 3 Kesiman</strong><span>Denpasar Timur, Bali</span></span>
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="program.html">Program</a></li>
+        <li><a href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="ppdb.html">PPDB</a></li>
+        <li><a href="kontak.html" class="active">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="ppdb.html" class="btn btn-primary">Daftar PPDB</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu">
+        <svg viewBox="0 0 24 24"><use href="assets/illus/icons.svg#ic-menu"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Beranda</a> / Kontak</div>
+    <span class="eyebrow">Hubungi Kami</span>
+    <h1>Kontak SD Negeri 3 Kesiman</h1>
+    <p>Kami siap membantu menjawab pertanyaan Anda seputar sekolah, program, maupun PPDB.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid cols-2">
+    <div>
+      <div class="info-card" style="margin-bottom:18px;">
+        <svg><use href="assets/illus/icons.svg#ic-pin"></use></svg>
+        <div><h4>Alamat</h4><p>Jalan Bakung No. 16, Tohpati, Kesiman Kertalangu, Denpasar Timur, Kota Denpasar, Bali</p></div>
+      </div>
+      <div class="info-card" style="margin-bottom:18px;">
+        <svg><use href="assets/illus/icons.svg#ic-clock"></use></svg>
+        <div><h4>Hari &amp; Jam Belajar</h4><p>Senin &ndash; Jumat, 07.00 &ndash; 13.00 WITA</p></div>
+      </div>
+      <div class="info-card" style="margin-bottom:18px;">
+        <svg><use href="assets/illus/icons.svg#ic-mail"></use></svg>
+        <div><h4>Email</h4><p>sdn.3kesiman@yahoo.com</p></div>
+      </div>
+      <div class="info-card" style="margin-bottom:18px;">
+        <svg><use href="assets/illus/icons.svg#ic-phone"></use></svg>
+        <div><h4>Telepon</h4><p>(0361) 467768</p></div>
+      </div>
+      <div class="info-card">
+        <svg><use href="assets/illus/icons.svg#ic-whatsapp"></use></svg>
+        <div><h4>WhatsApp Sekolah</h4><p>Silakan lengkapi nomor WhatsApp resmi sekolah di sini.</p></div>
+      </div>
+    </div>
+
+    <form class="form-card" id="contactForm">
+      <label for="cnama">Nama Lengkap</label>
+      <input type="text" id="cnama" required>
+      <label for="cemail">Email</label>
+      <input type="email" id="cemail" required>
+      <label for="csubjek">Subjek</label>
+      <input type="text" id="csubjek" required>
+      <label for="cpesan">Pesan</label>
+      <textarea id="cpesan" rows="5" required></textarea>
+      <button type="submit" class="btn btn-primary" style="width:100%;">Kirim Pesan</button>
+      <p id="formMsg" style="display:none;margin-top:16px;background:#EAF3EF;color:#1B6B63;padding:14px 16px;border-radius:10px;font-size:.9rem;"></p>
+    </form>
+  </div>
+</section>
+
+<div class="gate-divider to-white"></div>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow" style="justify-content:center;display:flex;">Lokasi</span>
+      <h2>Temukan Kami di Peta</h2>
+    </div>
+    <div style="border-radius:20px;overflow:hidden;box-shadow:var(--shadow-soft);">
+      <iframe
+        src="https://www.google.com/maps?q=Jl.+Bakung+No.16+Tohpati+Kesiman+Kertalangu+Denpasar+Timur+Bali&output=embed"
+        width="100%" height="380" style="border:0;display:block;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="Peta lokasi SD Negeri 3 Kesiman">
+      </iframe>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/logo.jpeg" alt="Lambang SDN 3 Kesiman">
+          <strong>SD Negeri 3 Kesiman</strong>
+        </div>
+        <p style="font-size:.9rem;max-width:34ch;">Pendidikan yang bermakna dan berkarakter untuk membentuk generasi unggul, berbudaya Bali, dan siap menghadapi masa depan.</p>
+        <div class="social-row">
+          <a href="https://www.instagram.com/sdn_3kesiman/" target="_blank" rel="noopener" aria-label="Instagram SDN 3 Kesiman">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="white" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h5>Jelajahi</h5>
+        <ul>
+          <li><a href="profil.html">Profil Sekolah</a></li>
+          <li><a href="program.html">Program Unggulan</a></li>
+          <li><a href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Informasi</h5>
+        <ul>
+          <li><a href="berita.html">Berita &amp; Pengumuman</a></li>
+          <li><a href="ppdb.html">PPDB</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Kontak</h5>
+        <ul>
+          <li>Jl. Bakung No. 16, Tohpati,<br>Kesiman Kertalangu, Denpasar Timur, Bali</li>
+          <li>sdn.3kesiman@yahoo.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 SD Negeri 3 Kesiman. Seluruh hak cipta dilindungi.</span>
+      <span>Dibuat dengan bangga untuk generasi unggul.</span>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
