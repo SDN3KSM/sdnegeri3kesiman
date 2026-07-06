@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeri | SD Negeri 3 Kesiman</title>
+<meta name="description" content="Galeri dokumentasi kegiatan siswa SD Negeri 3 Kesiman.">
+<link rel="icon" href="assets/img/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.jpeg" alt="Lambang SD Negeri 3 Kesiman">
+      <span class="brand-text"><strong>SDN 3 Kesiman</strong><span>Denpasar Timur, Bali</span></span>
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="program.html">Program</a></li>
+        <li><a href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+        <li><a href="galeri.html" class="active">Galeri</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="ppdb.html">PPDB</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="ppdb.html" class="btn btn-primary">Daftar PPDB</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu">
+        <svg viewBox="0 0 24 24"><use href="assets/illus/icons.svg#ic-menu"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Beranda</a> / Galeri</div>
+    <span class="eyebrow">Dokumentasi Kegiatan</span>
+    <h1>Galeri Sekolah</h1>
+    <p>Kumpulan momen dan kegiatan siswa SD Negeri 3 Kesiman sepanjang tahun ajaran.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="semua">Semua</button><button class="filter-btn" data-filter="pembelajaran">Kegiatan Pembelajaran</button><button class="filter-btn" data-filter="upacara">Upacara Bendera</button><button class="filter-btn" data-filter="p5">Projek P5</button><button class="filter-btn" data-filter="ekskul">Ekstrakurikuler</button><button class="filter-btn" data-filter="lomba">Lomba & Prestasi</button><button class="filter-btn" data-filter="kunjungan">Kunjungan Edukasi</button><button class="filter-btn" data-filter="pentas">Pentas Seni</button><button class="filter-btn" data-filter="nasional">Hari Besar Nasional</button><button class="filter-btn" data-filter="keagamaan">Hari Raya Keagamaan</button><button class="filter-btn" data-filter="wisuda">Wisuda & Pelepasan</button>
+    </div>
+    <div class="gallery-grid">
+      
+      <div class="gallery-item" data-cat="pembelajaran">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#1B6B63;"><use href="assets/illus/badges.svg#bd-classroom" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Kegiatan Pembelajaran</span>
+          <h4>Suasana belajar aktif di kelas dengan pendekatan berpusat pada siswa.</h4>
+        </div>
+      </div>
+      <div class="gallery-item" data-cat="upacara">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#C1443D;"><use href="assets/illus/badges.svg#bd-upacara" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Upacara Bendera</span>
+          <h4>Upacara bendera rutin setiap hari Senin menumbuhkan rasa cinta tanah air.</h4>
+        </div>
+      </div>
+      <div class="gallery-item" data-cat="p5">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#D4A94C;"><use href="assets/illus/badges.svg#bd-p5" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Projek P5</span>
+          <h4>Projek Penguatan Profil Pelajar Pancasila bertema kearifan lokal Bali.</h4>
+        </div>
+      </div>
+      <div class="gallery-item" data-cat="ekskul">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#1B6B63;"><use href="assets/illus/badges.svg#bd-ekskul" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Ekstrakurikuler</span>
+          <h4>Beragam kegiatan ekstrakurikuler akademik dan non-akademik siswa.</h4>
+        </div>
+      </div>
+      <div class="gallery-item" data-cat="lomba">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#C1443D;"><use href="assets/illus/badges.svg#bd-lomba" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Lomba &amp; Prestasi</span>
+          <h4>Capaian prestasi siswa dan guru di berbagai ajang kompetisi.</h4>
+        </div>
+      </div>
+      <div class="gallery-item" data-cat="kunjungan">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#7FA88C;"><use href="assets/illus/badges.svg#bd-kunjungan" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Kunjungan Edukasi</span>
+          <h4>Kunjungan belajar ke luar sekolah untuk memperkaya wawasan siswa.</h4>
+        </div>
+      </div>
+      <div class="gallery-item" data-cat="pentas">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#D4A94C;"><use href="assets/illus/badges.svg#bd-pentas" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Pentas Seni</span>
+          <h4>Penampilan seni tari, musik, dan kreativitas siswa di panggung sekolah.</h4>
+        </div>
+      </div>
+      <div class="gallery-item" data-cat="nasional">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#1B6B63;"><use href="assets/illus/badges.svg#bd-nasional" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Hari Besar Nasional</span>
+          <h4>Peringatan hari besar nasional sebagai wujud semangat kebangsaan.</h4>
+        </div>
+      </div>
+      <div class="gallery-item" data-cat="keagamaan">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#C1443D;"><use href="assets/illus/badges.svg#bd-keagamaan" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Hari Raya Keagamaan</span>
+          <h4>Perayaan hari raya keagamaan yang menjunjung tinggi toleransi dan budaya Bali.</h4>
+        </div>
+      </div>
+      <div class="gallery-item" data-cat="wisuda">
+        <svg viewBox="0 0 200 130" style="width:100%;height:170px;background:#22314A;"><use href="assets/illus/badges.svg#bd-wisuda" x="40" y="-35" width="120" height="120"></use></svg>
+        <div class="cap">
+          <span class="cat">Wisuda &amp; Pelepasan</span>
+          <h4>Momen pelepasan siswa kelas 6 menuju jenjang pendidikan berikutnya.</h4>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:30px;font-size:.85rem;color:#5b6b83;text-align:center;">
+      Catatan: ilustrasi di atas adalah placeholder kategori. Silakan ganti dengan foto dokumentasi asli kegiatan sekolah.
+    </p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Ikuti Update Kegiatan Kami</h2>
+    <p>Pantau kegiatan terbaru sekolah melalui Instagram resmi kami <strong>@sdn_3kesiman</strong>.</p>
+    <a href="https://www.instagram.com/sdn_3kesiman/" target="_blank" rel="noopener" class="btn btn-ghost">Kunjungi Instagram &rarr;</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/logo.jpeg" alt="Lambang SDN 3 Kesiman">
+          <strong>SD Negeri 3 Kesiman</strong>
+        </div>
+        <p style="font-size:.9rem;max-width:34ch;">Pendidikan yang bermakna dan berkarakter untuk membentuk generasi unggul, berbudaya Bali, dan siap menghadapi masa depan.</p>
+        <div class="social-row">
+          <a href="https://www.instagram.com/sdn_3kesiman/" target="_blank" rel="noopener" aria-label="Instagram SDN 3 Kesiman">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="white" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h5>Jelajahi</h5>
+        <ul>
+          <li><a href="profil.html">Profil Sekolah</a></li>
+          <li><a href="program.html">Program Unggulan</a></li>
+          <li><a href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Informasi</h5>
+        <ul>
+          <li><a href="berita.html">Berita &amp; Pengumuman</a></li>
+          <li><a href="ppdb.html">PPDB</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Kontak</h5>
+        <ul>
+          <li>Jl. Bakung No. 16, Tohpati,<br>Kesiman Kertalangu, Denpasar Timur, Bali</li>
+          <li>sdn.3kesiman@yahoo.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 SD Negeri 3 Kesiman. Seluruh hak cipta dilindungi.</span>
+      <span>Dibuat dengan bangga untuk generasi unggul.</span>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
