@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beranda | SD Negeri 3 Kesiman</title>
+<meta name="description" content="Website resmi SD Negeri 3 Kesiman, Denpasar Timur, Bali.">
+<link rel="icon" href="assets/img/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.jpeg" alt="Lambang SD Negeri 3 Kesiman">
+      <span class="brand-text"><strong>SDN 3 Kesiman</strong><span>Denpasar Timur, Bali</span></span>
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Beranda</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="program.html">Program</a></li>
+        <li><a href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="ppdb.html">PPDB</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="ppdb.html" class="btn btn-primary">Daftar PPDB</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu">
+        <svg viewBox="0 0 24 24"><use href="assets/illus/icons.svg#ic-menu"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">SD Negeri 3 Kesiman &middot; Denpasar Timur, Bali</span>
+      <h1>Pendidikan yang Bermakna dan Berkarakter untuk Membentuk Generasi Unggul.</h1>
+      <p class="hero-sub">Kami mengembangkan potensi akademik, karakter, kreativitas, budaya lokal Bali, dan keterampilan abad ke-21 dalam lingkungan belajar yang aman, sehat, dan menyenangkan.</p>
+      <div class="hero-ctas">
+        <a href="ppdb.html" class="btn btn-primary">Daftar PPDB 2026/2027</a>
+        <a href="profil.html" class="btn btn-outline">Kenali Profil Sekolah</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="assets/illus/hero.svg" alt="Ilustrasi siswa berjalan menuju gerbang sekolah bergaya candi bentar">
+    </div>
+  </div>
+</section>
+
+<div class="stats-strip">
+  <div class="container stats-row">
+    <div><span class="num">413</span><span class="lbl">Peserta Didik</span></div>
+    <div><span class="num">12</span><span class="lbl">Rombongan Belajar</span></div>
+    <div><span class="num">18</span><span class="lbl">Guru &amp; Tenaga Pendidik</span></div>
+    <div><span class="num">A</span><span class="lbl">Akreditasi Sekolah</span></div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container sambutan">
+    <div class="sambutan-frame">
+      <div class="inner">
+        <svg viewBox="0 0 200 200" style="width:100%;display:block;"><use href="assets/illus/badges.svg#avatar-kepsek"></use></svg>
+      </div>
+    </div>
+    <div>
+      <span class="eyebrow">Sambutan Kepala Sekolah</span>
+      <blockquote>&ldquo;Semoga website ini dapat menjadi jembatan komunikasi yang efektif antara sekolah dan masyarakat.&rdquo;</blockquote>
+      <p>Selamat datang di website resmi SD Negeri 3 Kesiman. Website ini hadir sebagai sarana informasi, komunikasi, dan publikasi kegiatan sekolah kepada peserta didik, orang tua, serta masyarakat luas. Kami berkomitmen memberikan layanan pendidikan yang bermutu dengan mengedepankan pembelajaran yang bermakna, karakter yang kuat, budaya lokal Bali, serta pemanfaatan teknologi dalam pembelajaran.</p>
+      <p class="signee">Desak Nyoman Sari, S.Pd.SD</p>
+      <p class="role">Kepala SD Negeri 3 Kesiman</p>
+    </div>
+  </div>
+</section>
+
+<div class="gate-divider to-white"></div>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow" style="justify-content:center;display:flex;">Program Unggulan</span>
+      <h2>Empat Gerakan yang Membentuk Karakter Siswa</h2>
+      <p>Program sekolah dirancang agar siswa tumbuh sebagai pribadi yang gemar membaca, berkarakter kuat, dan peduli lingkungan.</p>
+    </div>
+    <div class="grid cols-4">
+      <div class="card">
+        <div class="tab"></div>
+        <svg class="icon" viewBox="0 0 200 200"><use href="assets/illus/badges.svg#bd-literasi"></use></svg>
+        <span class="tag">Literasi</span>
+        <h3>GELIS MANIS</h3>
+        <p>Gerakan Literasi Sekolah Membaca Menulis: 15 menit membaca sebelum pelajaran, jurnal baca harian, dan pojok baca kelas.</p>
+      </div>
+      <div class="card">
+        <div class="tab"></div>
+        <svg class="icon" viewBox="0 0 200 200"><use href="assets/illus/badges.svg#bd-teman"></use></svg>
+        <span class="tag">Guru</span>
+        <h3>Teman Berbagi</h3>
+        <p>Komunitas belajar untuk pengembangan kompetensi guru dan inovasi pembelajaran di kelas.</p>
+      </div>
+      <div class="card">
+        <div class="tab"></div>
+        <svg class="icon" viewBox="0 0 200 200"><use href="assets/illus/badges.svg#bd-karakter"></use></svg>
+        <span class="tag">Karakter</span>
+        <h3>Gerakan 7 KAIH</h3>
+        <p>Program pembentukan karakter dan pembiasaan positif siswa dalam kehidupan sehari-hari di sekolah.</p>
+      </div>
+      <div class="card">
+        <div class="tab"></div>
+        <svg class="icon" viewBox="0 0 200 200"><use href="assets/illus/badges.svg#bd-eco"></use></svg>
+        <span class="tag">Lingkungan</span>
+        <h3>Gerustik</h3>
+        <p>Gerakan Pengurangan Sampah Plastik untuk membangun kepedulian siswa terhadap lingkungan.</p>
+      </div>
+    </div>
+    <div class="center" style="margin-top:36px;">
+      <a href="program.html" class="btn btn-outline">Lihat Semua Program</a>
+    </div>
+  </div>
+</section>
+
+<div class="gate-divider to-kapas flip"></div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Berita &amp; Pengumuman</span>
+      <h2>Kabar Terbaru dari Sekolah</h2>
+    </div>
+    <div class="grid cols-3">
+      <article class="card news-card">
+        <div class="thumb"><svg viewBox="0 0 200 120" style="width:100%;height:140px;background:#1B6B63;"><use href="assets/illus/badges.svg#bd-p5" x="50" y="-30" width="120" height="120"></use></svg></div>
+        <div class="body">
+          <span class="date">Agenda Sekolah</span>
+          <h3>Pelaksanaan Projek P5 Semester Ganjil</h3>
+          <p>Siswa kelas 1&ndash;6 mengikuti rangkaian Projek Penguatan Profil Pelajar Pancasila dengan tema kearifan lokal Bali.</p>
+        </div>
+      </article>
+      <article class="card news-card">
+        <div class="thumb"><svg viewBox="0 0 200 120" style="width:100%;height:140px;background:#C1443D;"><use href="assets/illus/badges.svg#bd-lomba" x="50" y="-30" width="120" height="120"></use></svg></div>
+        <div class="body">
+          <span class="date">Prestasi Siswa</span>
+          <h3>Juara Olimpiade SIMA SQUAD Tingkat Kota</h3>
+          <p>Tim olimpiade sekolah meraih prestasi membanggakan pada ajang kompetisi akademik tingkat Kota Denpasar.</p>
+        </div>
+      </article>
+      <article class="card news-card">
+        <div class="thumb"><svg viewBox="0 0 200 120" style="width:100%;height:140px;background:#D4A94C;"><use href="assets/illus/badges.svg#bd-literasi" x="50" y="-30" width="120" height="120"></use></svg></div>
+        <div class="body">
+          <span class="date">Pengumuman</span>
+          <h3>Kunjungan Rutin Pojok Baca Kelas</h3>
+          <p>Kegiatan GELIS MANIS terus berjalan dengan penambahan koleksi buku baru di setiap pojok baca kelas.</p>
+        </div>
+      </article>
+    </div>
+    <div class="center" style="margin-top:36px;">
+      <a href="berita.html" class="btn btn-outline">Lihat Semua Berita</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Penerimaan Peserta Didik Baru Segera Dibuka</h2>
+    <p>Wujudkan pendidikan yang bermakna dan berkarakter untuk putra-putri Anda bersama SD Negeri 3 Kesiman.</p>
+    <a href="ppdb.html" class="btn btn-ghost">Informasi PPDB &rarr;</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/logo.jpeg" alt="Lambang SDN 3 Kesiman">
+          <strong>SD Negeri 3 Kesiman</strong>
+        </div>
+        <p style="font-size:.9rem;max-width:34ch;">Pendidikan yang bermakna dan berkarakter untuk membentuk generasi unggul, berbudaya Bali, dan siap menghadapi masa depan.</p>
+        <div class="social-row">
+          <a href="https://www.instagram.com/sdn_3kesiman/" target="_blank" rel="noopener" aria-label="Instagram SDN 3 Kesiman">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="white" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h5>Jelajahi</h5>
+        <ul>
+          <li><a href="profil.html">Profil Sekolah</a></li>
+          <li><a href="program.html">Program Unggulan</a></li>
+          <li><a href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Informasi</h5>
+        <ul>
+          <li><a href="berita.html">Berita &amp; Pengumuman</a></li>
+          <li><a href="ppdb.html">PPDB</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Kontak</h5>
+        <ul>
+          <li>Jl. Bakung No. 16, Tohpati,<br>Kesiman Kertalangu, Denpasar Timur, Bali</li>
+          <li>sdn.3kesiman@yahoo.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 SD Negeri 3 Kesiman. Seluruh hak cipta dilindungi.</span>
+      <span>Dibuat dengan bangga untuk generasi unggul.</span>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
